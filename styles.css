@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px 0;
+    column-gap: 10px;
+    overflow-x: scroll;
+    box-shadow: 0 0 5px gray;
+}
+
+.contenedor::-webkit-scrollbar{
+    height: 5px;
+}
+
+.caja{
+    width: 100px;
+    height: 100%;
+    background: #000;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
